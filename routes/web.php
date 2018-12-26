@@ -42,3 +42,26 @@ Route::get("download","Htmlcontroller@download");
 
 //Conditional statement//
 Route::get("conditional","conditionalcontroller@conditional");
+
+
+//FOR//
+
+Route::get("for","ForController@for");
+
+//query builder//
+
+Route::get("queryrun", "dbcontroller@queryrun");
+
+//modelinseret//
+
+Route::get("modelinsert","productcontroller@insertorm");
+
+//select update delete model //
+Route::get("select", "productcontroller@selectmodel");
+Route::get("update", "productcontroller@updatemodel");
+Route::get("delete", "productcontroller@deletemodel");
+
+//form 
+Route::get("myform","formcontroller@myform");
+Route::post("submitmyform","formcontroller@submitmyform");
+
