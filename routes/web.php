@@ -65,3 +65,8 @@ Route::get("delete", "productcontroller@deletemodel");
 Route::get("myform","formcontroller@myform");
 Route::post("submitmyform","formcontroller@submitmyform");
 
+
+//Resource//
+
+Route::resource('movie','MovieContoller');
+
